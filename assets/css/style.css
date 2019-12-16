@@ -1,0 +1,115 @@
+.row {
+	margin: 0;
+}
+
+.hero {
+	height: 100vh;
+	background-image: url("../img/mtn.png");
+	background-size: cover;
+}
+.big-text {
+	color: #f5f5f5;
+	position: relative;
+	/* margin-top: 50vh; */
+	/* margin: 50% auto; */
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: url("../img/mtn.png");
+	background-size: cover;
+}
+
+.text {
+	background-color: #00000080;
+	color: #f5f5f5;
+
+	padding: 10px;
+}
+#highlight {
+	color: #d9ca2b;
+}
+
+#reveal {
+	margin: 10px auto;
+	position: relative;
+	/* top: 10px; */
+	border: 2px solid #f5f5f5;
+	color: #f5f5f5;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 20px;
+	transition: all 0.2s ease-in;
+}
+
+#reveal:hover {
+	background-color: #37694f;
+	border-color: #37694f;
+	transition: all 0.2s ease-in;
+}
+
+.navbar,
+.navbar-bg {
+	background-color: #041313;
+	margin: 0;
+}
+
+.navbar-bg {
+	border-bottom: solid #9e3232 4px;
+}
+
+.navbar {
+	margin-left: 20px;
+	padding: 0 16px;
+}
+
+.nav-link {
+	color: #f5f5f5;
+	font-size: 1.2em;
+	transition: all 0.2s ease-in;
+}
+.nav-link:hover {
+	background-color: #d9ca2b;
+	color: #041412;
+	transition: all 0.2s ease-in;
+}
+
+.fixed {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 20;
+}
+
+.active {
+	background-color: #d9ca2b;
+	color: #041412;
+}
+
+#about,
+#projects,
+#blog,
+#connect {
+	height: 150vh;
+}
+
+#about > h1 {
+	border-bottom: 4px solid black;
+	width: 5em;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+h2 {
+	text-align: center;
+}
+
+#about {
+	padding-top: 30px;
+	flex-direction: column;
+	align-items: center;
+}
