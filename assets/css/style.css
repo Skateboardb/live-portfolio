@@ -1,6 +1,9 @@
 .row {
 	margin: 0;
 }
+.block {
+	display: block;
+}
 
 .hero {
 	height: 100vh;
@@ -90,18 +93,33 @@
 	color: #041412;
 }
 
-#about,
+/* #about,
 #projects,
 #blog,
 #connect {
 	height: 150vh;
-}
+} */
 
-#about > h1 {
+#about-header {
 	border-bottom: 4px solid black;
 	width: 5em;
 	text-align: center;
 	padding-bottom: 10px;
+}
+
+.about-content {
+	margin-top: 50px;
+	text-align: center;
+}
+
+#bio {
+	margin-top: 25px;
+}
+
+#photo {
+	width: 70%;
+	border-radius: 50%;
+	text-align: center;
 }
 
 h2 {
@@ -109,7 +127,33 @@ h2 {
 }
 
 #about {
-	padding-top: 30px;
+	padding-top: 70px;
 	flex-direction: column;
 	align-items: center;
+}
+
+.bullet {
+	margin: 10px 20px;
+	/* display: block; */
+}
+
+.icon {
+	/* width: 33%; */
+	/* height: 100px; */
+	background-color: #63ba8d;
+	border-radius: 50%;
+	padding: 20px;
+	font-size: 60px;
+	color: white;
+	width: 100px;
+	text-align: center;
+}
+
+.icon-bg {
+	background-color: #63ba8d;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+
+	width: 100px;
 }
