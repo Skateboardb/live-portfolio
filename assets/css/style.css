@@ -118,8 +118,10 @@
 
 #photo {
 	width: 70%;
+	max-width: 300px;
 	border-radius: 50%;
 	text-align: center;
+	border: solid 4px #63ba8d;
 }
 
 h2 {
@@ -132,9 +134,28 @@ h2 {
 	align-items: center;
 }
 
+.skill-container {
+	display: inline-block;
+	width: 100%;
+	background-color: #eee;
+	text-align: right;
+	padding-right: 10px;
+	padding-left: 0;
+	font-size: 0.8em;
+}
+
+.skills {
+	display: inline-block;
+	width: 90%;
+	background-color: #37694f;
+	color: #37694f;
+	margin-left: 0;
+}
+
 .bullet {
 	margin: 10px 20px;
 	/* display: block; */
+	text-align: center;
 }
 
 .icon {
