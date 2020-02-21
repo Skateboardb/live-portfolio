@@ -1,0 +1,11 @@
+{
+  "name": "new-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Skateboardb/live-portfolio.git",
+  "author": "Branford Shaw <branford.shaw@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chartist": "^0.11.4"
+  }
+}

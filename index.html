@@ -13,7 +13,11 @@
 			crossorigin="anonymous"
 		/>
 
-		
+		<!-- chartist  -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+		<script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+
+		<!-- local styles  -->
 		<link rel="stylesheet" href="assets/css/style.css" />
 		<script src="https://kit.fontawesome.com/bd52e06c00.js" crossorigin="anonymous"></script>
 	</head>
@@ -53,11 +57,11 @@
 			<div class="row justify-content-center about-content">
 				<div class="col-5 bio">
 					<img id="photo" src="assets/img/headshot.jpg" alt="" srcset="">
-					<h2 id="bio">Who is this guy anyway?</h2>
+					<!-- <h2 id="bio">Who is this guy anyway?</h2>
 					<p>I'm a full-stack developer from Nashville, TN eager to take on my next role in a consumer-centric company. I love to use bold images, striking colors, and clean UI in my design.
 						<br>
 						<br>
-						When I'm not coding, you can find me writing articles and soaking in the great oudoors, often at the same time! </p>
+						When I'm not coding, you can find me writing articles and soaking in the great oudoors, often at the same time! </p> -->
 				</div>
 				<div class="col-5 right-col">
 						<div class="skill-container">
@@ -67,7 +71,7 @@
 
 
 
-							<li>
+							<!-- <li>
 								<h4>HTML5<span class="bar" id="html"></span ><span></span></h4>
 							</li>
 
@@ -85,8 +89,19 @@
 
 							<li>
 								<h4>MySQL<span class="bar" id="sql"></span ><span></span></h4>
-							</li>
+							</li> -->
+							<div class="ct-chart ct-golden-section"></div>
 						</div>
+
+				</div>
+				<div class="row">
+					<div class="col-10" id="bio-text">
+					<h2 id="bio">Who is this guy anyway?</h2>
+					<p>I'm a full-stack developer from Nashville, TN eager to take on my next role in a consumer-centric company. I love to use bold images, striking colors, and clean UI in my design.
+						<br>
+						<br>
+						When I'm not coding, you can find me writing articles and soaking in the great oudoors, often at the same time! </p>
+					</div>
 				</div>
 			</div>
 
