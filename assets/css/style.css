@@ -262,7 +262,7 @@ h2 {
 .icon {
 	/* width: 33%; */
 	/* height: 100px; */
-	background-color: #63ba8d;
+	background-color: #f78f25;
 	border-radius: 50%;
 	padding: 20px;
 	font-size: 60px;
@@ -272,7 +272,7 @@ h2 {
 }
 
 .icon-bg {
-	background-color: #63ba8d;
+	background-color: #f78f25;
 	border-radius: 50%;
 	text-align: center;
 	color: white;
