@@ -14,31 +14,35 @@
 		/>
 
 		<!-- chartist  -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css"
+		/>
 		<script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
 
 		<!-- local styles  -->
 		<link rel="stylesheet" href="assets/css/style.css" />
-		<script src="https://kit.fontawesome.com/bd52e06c00.js" crossorigin="anonymous"></script>
+		<script
+			src="https://kit.fontawesome.com/bd52e06c00.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
-		
 		<header id="header">
-		<div class="flex container-fluid">
-			<div class="text">
-				<h1>
-					Hello, I'm <span id="highlight">Branford Shaw</span>;
-					<br />
-					I'm a full-stack web developer.
-				</h1>
-			</div>
-			<div class="row">
-				<a id="reveal" href="#about">Come on in</a>
+			<div class="flex container-fluid">
+				<div class="text">
+					<h1>
+						Hello, I'm <span id="highlight">Branford Shaw</span>;
+						<br />
+						I'm a full-stack web developer.
+					</h1>
+				</div>
+				<div class="row">
+					<a id="reveal" href="#about"> Come on in</a>
+				</div>
 			</div>
 		</header>
-			
-		</div>
-		
+
 		<nav class="navbar-bg navbar-dark row">
 			<div class="navbar col-8 ">
 				<a class="nav-link nav-item" href="#about">ABOUT</a>
@@ -47,98 +51,151 @@
 				<a class="nav-link nav-item" href="#connect">CONNECT</a>
 			</div>
 		</nav>
-		
+
 		<div id="about" class="row">
-			
-			
 			<h1 class="section-header">ABOUT</h1>
-		
-			
-			<div class="row justify-content-center about-content">
-				<div class="col-5 bio">
-					<img id="photo" src="assets/img/headshot.jpg" alt="" srcset="">
-					<!-- <h2 id="bio">Who is this guy anyway?</h2>
+
+			<div class=" justify-content-center about-content">
+				<div class="row">
+					<div class="col-3 bio">
+						<img id="photo" src="assets/img/breakfast.png" alt="" srcset="" />
+						<!-- <h2 id="bio">Who is this guy anyway?</h2>
 					<p>I'm a full-stack developer from Nashville, TN eager to take on my next role in a consumer-centric company. I love to use bold images, striking colors, and clean UI in my design.
 						<br>
 						<br>
 						When I'm not coding, you can find me writing articles and soaking in the great oudoors, often at the same time! </p> -->
-				</div>
-				<div class="col-5 right-col">
+					</div>
+					<div class="col-4 right-col">
 						<div class="skill-container">
-							
-							<!-- <div class="skills html"> g</div>
-							90% -->
-
-
-
-							<!-- <li>
-								<h4>HTML5<span class="bar" id="html"></span ><span></span></h4>
-							</li>
-
-							<li>
-								<h4>CSS3<span class="bar" id="css"></span ><span></span></h4>
-							</li>
-
-							<li>
-								<h4>JAVASCRIPT<span class="bar" id="javascript"></span ><span></span></h4>
-							</li>
-
-							<li>
-								<h4>JQUERY<span class="bar" id="jquery"></span ><span></span></h4>
-							</li>
-
-							<li>
-								<h4>MySQL<span class="bar" id="sql"></span ><span></span></h4>
-							</li> -->
-							<div class="ct-chart ct-golden-section"></div>
+							<h2 id="bio">Who is this guy anyway?</h2>
+							<p>
+								I'm a full-stack developer from Nashville, TN eager to take on
+								my next role in a consumer-centric company. I love to use bold
+								images, striking colors, and clean UI in my design.
+								<br />
+								<br />
+								When I'm not coding, you can find me writing articles and
+								soaking in the great oudoors - often at the same time!
+							</p>
 						</div>
-
-				</div>
-				<div class="row">
-					<div class="col-10" id="bio-text">
-					<h2 id="bio">Who is this guy anyway?</h2>
-					<p>I'm a full-stack developer from Nashville, TN eager to take on my next role in a consumer-centric company. I love to use bold images, striking colors, and clean UI in my design.
-						<br>
-						<br>
-						When I'm not coding, you can find me writing articles and soaking in the great oudoors, often at the same time! </p>
+					</div>
+					<div class="col-5 chart">
+						<div class="ct-chart ct-golden-section"></div>
 					</div>
 				</div>
+				<div class="row"></div>
 			</div>
 
-			
 			<div class="col-10">
 				<div class="row justify-content-center">
 					<div class="col-3 bullet ">
-						
 						<i class="far fa-object-group icon"></i>
-						
-					
+
 						<h2>Responsive</h2>
-						<p>Beautiful arrangement on displays of all sizes is my first priority</p>
+						<p>
+							Beautiful arrangement on displays of all sizes is my first
+							priority
+						</p>
 					</div>
 					<div class="col-3 bullet">
-							
 						<i class="far fa-lightbulb icon"></i>
-					
+
 						<h2>Intuitive</h2>
-						<p>Every page should be straightforward and easy to interact with</p>
+						<p>
+							Every page should be straightforward and easy to interact with
+						</p>
 					</div>
 					<div class="col-3 bullet">
-							
 						<i class="fas fa-atom icon"></i>
-					
+
 						<h2>Modern</h2>
-						<p>I stay up to date on the latest trends in design for aesthetics and usability</p>
-						
+						<p>
+							I stay up to date on the latest trends in design for aesthetics
+							and usability
+						</p>
 					</div>
 				</div>
 			</div>
-		
 		</div>
 		<div class="row" id="projects">
-			<h1 class="section-header">PROJECTS</h1>
-			
-
+			<div class="justify-content-center row" id="project-window">
+				<div class="col-12 justify-content-center">
+					<h1 class="section-header">PROJECTS</h1>
+				</div>
+				<div class="col-10">
+					<div class="row project-row">
+						<div class="col-4">
+							<a href="https://skateboardb.github.io/FilmBase/">
+								<img
+									class="img-base"
+									src="assets/img/film-base.png"
+									alt=""
+									srcset=""
+								/>
+							</a>
+						</div>
+						<div class="col-8 project-text">
+							<h2>
+								FilmBase
+							</h2>
+							<p>
+								A collaborative effort, FilmBase was created out of a mutual
+								love for cinema and a need to incorporate a number of elements
+								into a bootcamp project including an unfamiliar API and a UI
+								that modeled a popular site. When a movie is searched, the user
+								is presented with info in a way that somewhat mirrors the UI on
+								IMDB.
+							</p>
+						</div>
+					</div>
+					<div class="row project-row ">
+						<div class="col-8 project-text">
+							<h2>
+								King Burger
+							</h2>
+							<p>
+								Originally called Eat-Da-Burger, King Burger was created as a
+								way to work with a database to dynamically render text based on
+								user entry. This app also uses a home-made ORM as a part of
+								learning to work using the MVC design scheme.
+							</p>
+						</div>
+						<div class="col-4">
+							<a href="https://rocky-dusk-58529.herokuapp.com/">
+								<img
+									class="img-base"
+									src="assets/img/king-burger.png"
+									alt=""
+									srcset=""
+							/></a>
+						</div>
+					</div>
+					<div class="row project-row project-row">
+						<div class="col-4">
+							<img
+								class="img-base"
+								src="assets/img/beerfinder.png"
+								alt=""
+								srcset=""
+							/>
+						</div>
+						<div class="col-8 project-text">
+							<h2>
+								Beerfinder 2.0
+							</h2>
+							<p>
+								There are SO many apps on the internet the help people discover
+								what types of wine they might enjoy, but craft beer wasn't
+								getting the same love. This collaborative project was born in
+								response. Using Sequelize as an ORM for this MVC-structured
+								application, we designed a survey that generates a
+								recommendation based on 8 popular styles of beer in the United
+								States.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div id="blog"></div>
 		<div id="connect"></div>

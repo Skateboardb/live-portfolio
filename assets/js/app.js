@@ -45,10 +45,14 @@ new Chartist.Bar(
 	".ct-chart",
 	{
 		labels: ["MySQL", "Node.js", "Javascript", "CSS3", "HTML5"],
-		series: [[2, 3, 3.5, 4, 5]]
+		series: [
+			[4, 6, 7, 8, 9],
+			[6, 4, 3, 2, 1]
+		]
 	},
 	{
 		horizontalBars: true,
+		stackBars: true,
 		// showPoint: false,
 		// showLine: false,
 		// showArea: true,
@@ -62,7 +66,7 @@ new Chartist.Bar(
 		axisY: {
 			showGrid: false,
 			showLabel: true,
-			offset: 70
+			offset: 200
 		}
 		// chartPadding: 0,
 		// low: 0
